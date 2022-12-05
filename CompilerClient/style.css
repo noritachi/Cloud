@@ -1,0 +1,40 @@
+.lesson-container {
+    /* height: calc((100% - 40px)*(2/5)); */
+    height: calc(50% - 20px);
+}
+
+.lesson-wrapper {
+    height: calc(100%);
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.lesson-wrapper::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.lesson {
+    color: #fff;
+}
+
+.active {
+    color: #FFD500
+}
+
+.lesson span:hover {
+    color: #FFD500;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.lesson span:active {
+    color: #FFD500;
+}
+
+.requirement-container {
+    /* height: calc((100% - 40px)*(3/5)); */
+    height: calc(50% - 20px);
+    overflow: auto;
+}

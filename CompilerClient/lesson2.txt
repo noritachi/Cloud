@@ -1,0 +1,19 @@
+docker run --rm -it --network=host ubuntu:18.04
+
+if(grade >= 5) 
+      {
+        Console.Write("Pass");
+      }
+      else 
+      {
+        Console.Write("Fail");
+      }
+
+if(grade >= 5) 
+      {
+        System.out.print("Pass");
+      }
+      else 
+      {
+        System.out.print("Fail");
+      }
